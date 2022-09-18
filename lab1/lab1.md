@@ -1,3 +1,69 @@
+Factorial
+---
+```cpp
+unsigned long long factorial(unsigned int n) {
+   unsigned long long total = 1;                    // + 1
+
+   for (int i = 1; i <= n; ++i)                     // + 1 + n-1 + n-1
+   {
+      total *= i;                                   // + 2
+   }
+
+   return total;
+}
+```
+$f(n) = 2n + 4 \in O(n)$
+
+Power
+---
+
+```cpp
+unsigned long long power(unsigned int base, unsigned int n) {
+   if (n == 0)                              // 1
+   { 
+      return 1;
+   }
+   unsigned long long value = 1;            // 1
+
+   for (int i = 0; i < n; i++)              // 1 + n + n
+   {
+      value *= base;                        // 2
+   }
+   return value;
+}
+```
+$f(n) = 2n + 4 \in O(n)$
+
+Fibonacci
+---
+
+```cpp
+unsigned long long fibonacci(unsigned int n) {
+   unsigned long long n1, n2, fib;
+   n1 = 0;                                       // 1
+   n2 = 1;                                       // 1
+   fib = 0;                                      // 1
+   if (n >= 2)                                   // 2
+   {
+      for (int i = 1; i < n; i++)                // 2 + n + n   
+      {
+         fib = n1 + n2;                          // 2
+         n1 = n2;                                // 1
+         n2 = fib;                               // 1
+      }
+   }
+   else if (n == 0)                              // 2
+      return n1;
+   else if (n == 1)                              // 2
+      return n2;
+
+   return fib;
+}
+```
+$f(n) = 11 + 2n \in O(n)$
+
+Bubble Sort
+---
 ```cpp
 void bubbleSort(int arr[],int size){            
     int tmp;                                    // + 1               
