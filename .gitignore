@@ -2,3 +2,5 @@ a.out
 *.exe
 *.o
 .DS_Store
+.vs/
+x64/
