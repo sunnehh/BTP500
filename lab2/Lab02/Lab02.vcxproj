@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\lab2.cpp" />
     <ClCompile Include="..\lab2timing.cpp" />
   </ItemGroup>
   <ItemGroup>

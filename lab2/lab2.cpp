@@ -9,6 +9,13 @@
 
 /* remember to code these in a RECURSIVE only manner*/
 
+
+#include "timer.h"
+#include <iostream>
+using namespace std;
+
+
+
 unsigned long long factorial (unsigned int n){
 	// base case 0! = 1;
 	if (n == 0) {
@@ -46,3 +53,4 @@ unsigned long long fibonacci (unsigned int n){
 		return fibonacci(n - 2) + fibonacci(n - 1);
 	}
 }
+
