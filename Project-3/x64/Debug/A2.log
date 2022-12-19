@@ -1,0 +1,15 @@
+﻿  a2tester.cpp
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\table.h(991,25): warning C4244: 'return': conversion from 'size_t' to 'double', possible loss of data
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\table.h(990): message : while compiling class template member function 'double LPTable<int>::loadFactor(void) const'
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\a2tester.cpp(1479): message : see reference to function template instantiation 'double LPTable<int>::loadFactor(void) const' being compiled
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\a2tester.cpp(1445): message : see reference to class template instantiation 'LPTable<int>' being compiled
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\table.h(832,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\table.h(803): message : while compiling class template member function 'int LPTable<int>::search(const std::string &) const'
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\table.h(778): message : see reference to function template instantiation 'int LPTable<int>::search(const std::string &) const' being compiled
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\table.h(983,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\table.h(982): message : while compiling class template member function 'int LPTable<int>::numRecords(void) const'
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\a2tester.cpp(1449): message : see reference to function template instantiation 'int LPTable<int>::numRecords(void) const' being compiled
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\table.h(987,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\table.h(986): message : while compiling class template member function 'int LPTable<int>::capacity(void) const'
+C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\a2tester.cpp(1457): message : see reference to function template instantiation 'int LPTable<int>::capacity(void) const' being compiled
+  A2.vcxproj -> C:\Users\Sunny\Desktop\Seneca\Sem5\BTP500\a2g-a2-sqi9-acucos\x64\Debug\A2.exe
